@@ -1,0 +1,73 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/62e828507a19b07c635f6fc4.62e8285041fdb6de5bf9dcdc.6hNB7SZ.hcp.png");
+
+@font-face {
+  font-family: "Graphik-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Graphik-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Irvin-Heading";
+  font-style: normal;
+  font-weight: 50;
+  src: url("../fonts/Irvin-Heading.woff") format("opentype");
+}
+
+@font-face {
+  font-family: "Irvin-Text";
+  font-style: normal;
+  font-weight: 50;
+  src: url("../fonts/Irvin-Text.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "AdobeCaslonPro-Italic";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/AdobeCaslonPro-Italic.woff") format("opentype");
+}
+
+@font-face {
+  font-family: "AdobeCaslonPro-Regular";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/AdobeCaslonPro-Regular.woff") format("opentype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}

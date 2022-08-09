@@ -1,0 +1,39 @@
+:root { 
+  --black: #000000;
+  --gray-nurse: #e9e8e8;
+  --white: #ffffff;
+ 
+  --font-size-l: 30px;
+  --font-size-m: 28px;
+  --font-size-s: 24px;
+  --font-size-xl: 48px;
+  --font-size-xs: 21px;
+  --font-size-xxs: 14px;
+  --font-size-xxxs: 12px;
+ 
+  --font-family-graphik-medium: "Graphik-Medium", Helvetica;
+  --font-family-irvin-heading: "Irvin-Heading", Helvetica;
+  --font-family-irvin-regular: "Irvin-Text", Helvetica;
+  --font-family-neutraface_new_yorker-semibold: "Neutraface New Yorker-SemiBold", Helvetica;
+  --font-family-tny_adobe_caslon_pro-italic: "AdobeCaslonPro-Italic", Helvetica;
+  --font-family-tny_adobe_caslon_pro-regular: "AdobeCaslonPro-Regular", Helvetica;
+}
+.irvin-regular-normal-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-irvin-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.irvin-regular-normal-white-48px {
+  color: var(--white);
+  font-family: var(--font-family-irvin-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.border-1-5px-white {
+  border: 1.5px solid var(--white);
+}
